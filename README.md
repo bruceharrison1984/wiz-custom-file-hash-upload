@@ -17,7 +17,7 @@ npm run upload ## upload the local hashes file contained in wiz_custom_hashes.cs
 
 ## Steps
 - Download:
-  - File is downloaded via a `scannerSettings` request
+  - Current settings are retrieved via a `scannerSettings` request
     - A pre-signed download url is contained in `data.scannerSettings.customFileDetectionList.url`
 - Upload:
   - A new presigned url is created via a `requestScannerSettingsCustomFileDetectionListUpload` request
