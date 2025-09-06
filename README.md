@@ -6,9 +6,8 @@ This script facilitates downloading, updating, and re-uploading the file hash li
 ## .env file
 export WIZ_CLIENT_ID="<client_id>"
 export WIZ_CLIENT_SECRET="<client_secret>"
-export WIZ_SAML_PROVIDER_NAME="<saml-provider-name>"
 export WIZ_API_ENDPOINT="<api-endpoint>" 
-export WIZ_TOKEN_ENDPOINT="<token-endpoint>" ## optional - defaults to Wiz Commercial
+export WIZ_TOKEN_ENDPOINT="<token-endpoint>"
 
 npm install
 npm run download ## download the current hashes from Wiz
