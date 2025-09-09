@@ -23,3 +23,6 @@ npm run upload ## upload the local hashes file contained in wiz_custom_hashes.cs
   - The file is uploaded to the presigned url via `PUT` (backend is S3)
   - The custom scanner settings are updated with the presigned url information via a `updateScannerSettings` request
     - This request includes in the new hash file id recieved when the pre-signed url was generated.
+
+## Python
+There is an additional example written in python in `python/custom-hash-api.py`
